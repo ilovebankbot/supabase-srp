@@ -77,7 +77,7 @@ sequenceDiagram
 
     Server (Node.js)->>Server (Node.js): คำนวณ Shared Session Key (ถ้าผิดจะพัง)
     Server (Node.js)->>Server (Node.js): Verify ค่า proof_M1 ของ Client
-    Server (Node.js)->>Server (Node.js): นำ Shared Key มาเซ็น (Sign) JWT
+    Server (Node.js)->>Server (Node.js): Auth flow
     Server (Node.js)-->>Client (Browser): ตอบกลับด้วย { jwt_token }
     Note over Client (Browser),Server (Node.js): Authentication สำเร็จ!
 ```
