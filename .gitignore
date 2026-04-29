@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build artifacts that may have landed in root from old setup
+index.js
+index.js.map
+index.d.ts
+index.d.ts.map

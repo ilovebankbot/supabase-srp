@@ -1,0 +1,29 @@
+{
+  "name": "supabase-srp",
+  "version": "1.0.0",
+  "description": "SRP Challenge & E2EE demo with Supabase",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "dotenv": "^17.4.2",
+    "jose": "^6.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "secure-remote-password": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
